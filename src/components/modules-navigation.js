@@ -9,6 +9,7 @@ import { humanReadableTimeFromSeconds } from '../utils/helpers';
  * from a track and navigates to the modules page
  */
 const ModulesNav = ({ module, track }) => {
+  console.dir({ track }, { depth: null })
   return (
     <ModulesNavContainer>
       <ModuleTitle>
